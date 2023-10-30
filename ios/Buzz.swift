@@ -47,6 +47,10 @@ class Buzz: NSObject {
         }
     }
 
+    @objc func vibrate() {
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+  }
+
   @objc func vibrateLowIntensity(_ intensity: Float) {
     print(intensity,"intensityintensityintensity")
           // Create a haptic event with a custom pattern for the specified intensity
