@@ -1,6 +1,6 @@
 {
   "name": "react-native-buzz",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "react native package to vibrate mobile",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
