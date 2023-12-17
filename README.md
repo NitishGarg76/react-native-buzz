@@ -1,11 +1,17 @@
 # react-native-buzz
 
-react native package to vibrate device for IOS , UNDER DEVELOPMENT FOR ANDROID.
+A React Native module to vibrate device for both IOS and Android. 
 
 ## Installation
 
 ```sh
 npm install react-native-buzz
+```
+## Android
+
+Add below permission in AndroidMenifest.xml
+```js
+<uses-permission android:name="android.permission.VIBRATE" />
 ```
 ## IOS
 ```js
@@ -20,7 +26,7 @@ const vibrate = () =>{
     //To vibrate the device use below
     Buzz.vibrate()
     //To vibrate device at dezired Intensity use below
-    Buzz.vibrateLowIntensity(0.5)
+    Buzz.vibrateAtIntensity(0.5)
 }
 ```
 

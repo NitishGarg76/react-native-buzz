@@ -5,6 +5,6 @@
 @interface RCT_EXTERN_MODULE(Buzz, NSObject)
 
 RCT_EXTERN_METHOD(vibrate) // Expose the vibrate method
-RCT_EXTERN_METHOD(vibrateLowIntensity: (float)intensity)
+RCT_EXTERN_METHOD(vibrateAtIntensity: (float)intensity)
 
 @end
