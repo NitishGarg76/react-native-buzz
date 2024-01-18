@@ -1,6 +1,6 @@
 {
   "name": "react-native-buzz",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "react native package to vibrate mobile",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -39,6 +39,8 @@
     "react-native-Vibration",
     "react-native-Buzz",
     "react",
+    "buzz",
+    "buzzer",
     "Vibrations"
   ],
   "repository": "https://github.com/NitishGarg76/react-native-buzz",
